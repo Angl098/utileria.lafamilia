@@ -1,0 +1,11 @@
+.contacto{
+    position: relative;
+    margin: 20px;
+    z-index: 1;
+}
+
+.contacto-p p{
+    margin: 10px auto 15px;
+    line-height: 1.4;
+
+}
