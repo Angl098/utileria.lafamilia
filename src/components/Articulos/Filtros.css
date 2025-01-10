@@ -1,0 +1,45 @@
+.section{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 3vw;
+}
+
+.previous-example{
+    display: block;
+}
+
+.example-item{
+    background-color: none;
+    display: inline-block;
+    padding: 10px 10px;
+    margin: 0 1em 1em 0;
+    color: black;
+    border: 1px solid;
+    border-color: black;
+    border-radius: 30px;
+    box-shadow: 0 3px 6px var(--shadow-color--);
+
+    transition-duration: 0.3s;
+
+    animation-name: slideInLeft;
+    animation-duration: 1s;
+
+}
+
+.example-item:hover{
+    transform: translateY(-5px);
+    background-color: rgb(206, 206, 134);
+    border-color: rgb(206, 206, 134);
+}
+
+/* ----ANIMATIONS---- */
+@keyframes slideInLeft{
+    from{
+        transform: translateX(-100px);
+    }
+
+    to{
+        transform: translateX(0);
+    }
+}

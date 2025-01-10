@@ -8,6 +8,7 @@ import Accesorios from './components/Accesorios/Accesorios';
 import Footer from './components/Footer/Footer';
 import Contacto from './components/Contacto/Contacto';
 import 'leaflet/dist/leaflet.css';
+import Articulos from './components/Articulos/Articulos';
 
 
 function App() {
@@ -20,6 +21,8 @@ function App() {
         <About />
         <Title subTitle='' title='Servicios'/>
         <Servicios/>
+        <Title subTitle='' title='Articulos'/>
+        {/* <Articulos/> */}
         <Title subTitle='' title='Accesorios'/>
         <Accesorios/>
         <Title subTitle='UBICACIÓN' title='Dónde estamos'/>

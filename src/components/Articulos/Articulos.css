@@ -1,0 +1,21 @@
+.section{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 3vw;
+}
+
+.articulos-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    grid-gap: 1.5em;
+}
+.cards-container{
+    border: 1px solid;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.custom-image img{
+    width: 65%;
+}
